@@ -1,0 +1,42 @@
+[
+    {
+        "title": "Легкое чтение",
+        "link": "https://www.litres.ru/legkoe-chtenie/"
+    },
+    {
+        "title": "Серьезное чтение",
+        "link": "https://www.litres.ru/sereznoe-chtenie/"
+    },
+    {
+        "title": "История",
+        "link": "https://www.litres.ru/istoriya/"
+    },
+    {
+        "title": "Бизнес-книги",
+        "link": "https://www.litres.ru/znaniya-navyki/biznes/"
+    },
+    {
+        "title": "Знания и навыки",
+        "link": "https://www.litres.ru/znaniya-navyki/"
+    },
+    {
+        "title": "Психология, мотивация",
+        "link": "https://www.litres.ru/psihologiya-motivaciya/"
+    },
+    {
+        "title": "Спорт, здоровье, красота",
+        "link": "https://www.litres.ru/sport-zdorove-krasota/"
+    },
+    {
+        "title": "Хобби, досуг",
+        "link": "https://www.litres.ru/hobbi-dosug/"
+    },
+    {
+        "title": "Дом, дача",
+        "link": "https://www.litres.ru/dom-dacha/"
+    },
+    {
+        "title": "Детские книги",
+        "link": "https://www.litres.ru/detskie-knigi/"
+    }
+]
