@@ -76,7 +76,7 @@ def get_test(message: Message, lang, cat_id):
 Количество оценок: {estimation_quantity}
 Тип книги: {type_book} 
 """
-            bot.send_photo(chat_id, photo=img_link, caption=text, reply_markup=show_detail_book(text, lang))
+            bot.send_photo(chat_id, photo=img_link, caption=text, reply_markup=show_detail_book(title, lang))
         else:
             bot.send_message(chat_id, 'Произошла ошибка', reply_markup=category_menu(lang))
     elif lang == 'en':
@@ -97,6 +97,6 @@ Book Evaluation: {estimation} ⭐
 Number of ratings: {estimation_quantity}
 Type of book: {type_book} 
         """
-            bot.send_photo(chat_id, photo=img_link, caption=text, reply_markup=category_menu(lang))
+            bot.send_photo(chat_id, photo=img_link, caption=text, reply_markup=show_detail_book(title, lang))
         else:
             bot.send_message(chat_id, 'An error has occurred', reply_markup=category_menu(lang))
